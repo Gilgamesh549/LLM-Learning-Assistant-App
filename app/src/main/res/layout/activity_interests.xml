@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4FC3F7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Interests"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp" />
+
+        <CheckBox
+            android:id="@+id/cbAlgorithms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Algorithms" />
+
+        <CheckBox
+            android:id="@+id/cbDataStructures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Structures" />
+
+        <CheckBox
+            android:id="@+id/cbWebDev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Development" />
+
+        <CheckBox
+            android:id="@+id/cbTesting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Testing" />
+
+        <CheckBox
+            android:id="@+id/cbDatabases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Databases" />
+
+        <CheckBox
+            android:id="@+id/cbMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Development" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#00E676" />
+    </LinearLayout>
+</ScrollView>
